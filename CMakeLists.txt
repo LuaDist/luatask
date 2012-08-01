@@ -7,6 +7,7 @@
 project ( luatask C )
 cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
+include ( lua )
 
 # Detect threading support.
 # TODO: Windows can use Pthreads-Win32.
